@@ -1,5 +1,17 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Download do App",
+  description:
+    "Baixe o aplicativo AquaSense para Android e monitore seu sistema de aquaponia em tempo real.",
+  openGraph: {
+    title: "Download do App AquaSense",
+    description:
+      "Baixe o aplicativo AquaSense para Android e monitore seu sistema de aquaponia.",
+  },
+};
 
 export default function Download() {
   return (
